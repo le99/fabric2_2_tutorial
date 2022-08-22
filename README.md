@@ -1,9 +1,11 @@
 # Tutorial basico Fabric 2.2.0
 
 ## Pre-requisitos
-Instalar vagrant:
+Instalar vagrant y virtual box:
 
 https://www.vagrantup.com/docs/installation
+https://www.virtualbox.org/
+
 
 Se require conexion an internet y acceso a la pagina:
 https://registry.npmjs.org/
