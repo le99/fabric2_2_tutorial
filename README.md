@@ -8,15 +8,18 @@ https://www.vagrantup.com/docs/installation
 Se require conexion an internet y acceso a la pagina:
 https://registry.npmjs.org/
 
-# Correr maquina virtual
-Clonar repositorio (o descargar Vagrantfile)
+## 1. Correr maquina virtual
+Clonar repositorio (o descargar el archivo Vagrantfile)
 
 En la carpeta correr:
 ```bash
 vagrant up
+
+#Para apagar
+#vagrant halt
 ```
 
-# Correr asset-transfer-basic
+## 2. Correr asset-transfer-basic
 
 ```bash
 vagrant ssh
