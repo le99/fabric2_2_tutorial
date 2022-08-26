@@ -48,7 +48,7 @@ pw: adminpw
 cd /home/vagrant/hyperledger/fabric-samples/test-network
 
 #Stop network
-./network down
+./network.sh down
 
 #Stop vagrant
 vagrant halt
