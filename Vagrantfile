@@ -14,7 +14,7 @@ Vagrant.configure("2") do |config|
 
 
   config.vm.provider "virtualbox" do |v|
-    v.customize ["modifyvm", :id, "--memory", "4096", "--cpus", "2"]
+    v.customize ["modifyvm", :id, "--uartmode1", "disconnected", "--memory", "4096", "--cpus", "2"]
     v.gui = false
   end
 end
